@@ -1,0 +1,52 @@
+/*arquivo responsavel por complementar estilos que nao são padraos para todas as paginas HTML*/
+
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+}
+
+section{
+    
+    padding: 35px;
+    border-radius: 10px;
+}
+.perfil{
+    width: 450px;
+    height: 450px;
+    border-radius: 30px;
+    margin-top: 50px;
+}.apresentacao{
+    align-items: flex-start;
+}
+.apresentacao-conteudo-corpo h2{
+    text-transform: uppercase; 
+}
+
+.apresentacao-conteudo-cabecalho h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    color: var(--cor-terciaria);
+ }
+
+.apresentacao-conteudo-cabecalho a{
+    color: var(--cor-secundaria);
+    text-decoration: none;
+ }
+ .apresentacao-conteudo-cabecalho a:hover{
+    color: var(--cor-terciaria);
+    text-decoration: none;
+ }
+
+.apresentacao-conteudo-corpo{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.apresentacao-conteudo-corpo div{
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+}
